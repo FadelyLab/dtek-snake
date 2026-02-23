@@ -1,0 +1,264 @@
+body {
+    margin: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0
+}
+
+body,html {
+    height: 100%;
+    font-family: "Roboto-Regular",Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.3;
+    color: #5a636b
+}
+
+body.overflow-hidden,table {
+    overflow: hidden
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+section.discon_schedule .discon-schedule-interact {
+    margin-left: 35px;
+    max-width: 815px;
+    width: 815px
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table,section.discon_schedule .discon-schedule-interact .discon-schedule-table table {
+    min-width: 280px;
+    border: 1px solid #bebebe;
+    border-collapse: inherit;
+    border-radius: 10px!important
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table td[colspan="2"],section.discon_schedule .discon-schedule-interact .discon-fact-table table th[colspan="2"],section.discon_schedule .discon-schedule-interact .discon-schedule-table table td[colspan="2"],section.discon_schedule .discon-schedule-interact .discon-schedule-table table th[colspan="2"] {
+    width: 92px;
+    padding: 9px 11px
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table td[colspan="2"] div,section.discon_schedule .discon-schedule-interact .discon-fact-table table th[colspan="2"] div,section.discon_schedule .discon-schedule-interact .discon-schedule-table table td[colspan="2"] div,section.discon_schedule .discon-schedule-interact .discon-schedule-table table th[colspan="2"] div {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: inline-block
+}
+
+@media (max-width: 845px) {
+    section.discon_schedule .discon-schedule-interact .discon-fact-table table td[colspan="2"],section.discon_schedule .discon-schedule-interact .discon-fact-table table th[colspan="2"],section.discon_schedule .discon-schedule-interact .discon-schedule-table table td[colspan="2"],section.discon_schedule .discon-schedule-interact .discon-schedule-table table th[colspan="2"] {
+        padding:7px;
+        width: 55px;
+        font-size: 12px
+    }
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table td,section.discon_schedule .discon-schedule-interact .discon-schedule-table table td {
+    border-right: 1px solid #bebebe;
+    height: 38px!important;
+    padding: 11px 7px;
+    font-size: 14px;
+    font-weight: 700
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table td:last-child,section.discon_schedule .discon-schedule-interact .discon-schedule-table table td:last-child {
+    border-right: none;
+    height: 30px!important
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table th,section.discon_schedule .discon-schedule-interact .discon-schedule-table table th {
+    border-left: 0;
+    border-top: 0;
+    border-right: 1px solid #bebebe;
+    border-bottom: 1px solid #bebebe
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr td.yesterday-cell+td:last-child,section.discon_schedule .discon-schedule-interact .discon-fact-table table th:last-child,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr td.yesterday-cell+td:last-child,section.discon_schedule .discon-schedule-interact .discon-schedule-table table th:last-child {
+    border-right: none!important
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table thead tr th,section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr th {
+    background-color: #fff!important;
+    font-family: "Roboto",serif;
+    font-size: 14px;
+    vertical-align: middle;
+    font-weight: 500;
+    text-align: left;
+    color: #11203e;
+    max-width: 30px;
+    padding: 0
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table thead tr th div,section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr th div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media (max-width: 845px) {
+    section.discon_schedule .discon-schedule-interact .discon-fact-table table thead tr th div,section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr th div {
+        -webkit-writing-mode:initial;
+        -ms-writing-mode: initial;
+        writing-mode: initial
+    }
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table thead tr th[colspan],section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr th[colspan] {
+    max-width: 92px;
+    border-left: 0!important;
+    font-weight: 500
+}
+
+@media (max-width: 845px) {
+    section.discon_schedule .discon-schedule-interact .discon-fact-table table thead tr th,section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr th {
+        font-size:12px;
+        width: 92px
+    }
+
+    section.discon_schedule .discon-schedule-interact .discon-fact-table table thead tr,section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr {
+        height: 40px
+    }
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table .head-time,section.discon_schedule .discon-schedule-interact .discon-schedule-table table .head-time {
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: lr-tb;
+    writing-mode: horizontal-tb
+}
+
+@media (max-width: 845px) {
+    section.discon_schedule .discon-schedule-interact .discon-fact-table table .head-time,section.discon_schedule .discon-schedule-interact .discon-schedule-table table .head-time {
+        -webkit-box-align:center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%!important;
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: flex!important
+    }
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr td,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr td {
+    font-family: "Roboto",serif;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+    text-align: center;
+    color: #001018;
+    width: 92px!important;
+    max-width: 30px;
+    border-bottom: 1px solid #bebebe
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr td[colspan],section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr td[colspan] {
+    max-width: 92px;
+    text-align: left;
+    min-width: 70px;
+    color: #11203e
+}
+
+@media (max-width: 845px) {
+    section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr td[colspan],section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr td[colspan] {
+        text-align:center
+    }
+}
+
+@media (max-width: 845px) {
+    section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr td,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr td {
+        line-height:12px;
+        max-width: 92px;
+        height: 30px!important
+    }
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr td.current-day,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr td.current-day {
+    background-color: #ffe500
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr.yesterday-row td,section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr.yesterday-row+tr td,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr.yesterday-row td,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr.yesterday-row+tr td {
+    border-bottom: 1px solid #ffe500
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr.monday-row td,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr.monday-row td {
+    border-bottom: 1px solid #ffe500!important
+}
+section.discon_schedule .discon-schedule-interact .discon-fact-table table thead tr th.monday-th-day,section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr th.monday-th-day {
+    border-bottom: 1px solid #ffe500!important
+}
+
+section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr:last-child td,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr:last-child td {
+    border-bottom: none!important
+}
+
+@media (max-width: 845px) {
+    section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr th {
+        font-weight:600
+    }
+}
+
+section.discon_schedule .discon-schedule-interact #discon-fact .discon-fact-table .cell-first-half:before,section.discon_schedule .discon-schedule-interact #discon-fact .discon-fact-table .cell-second-half:before {
+    background-color: #d3d4d5!important;
+    background-image: url(./elec-off.svg)!important
+}
+
+@media (max-width: 1420px) {
+    section.discon_schedule .discon-schedule-interact {
+        margin:auto
+    }
+}
+
+@media (max-width: 845px) {
+    section.discon_schedule .discon-schedule-interact {
+        width:100%
+    }
+
+    section.discon_schedule .discon-fact {
+        margin-top: 40px
+    }
+}
+
+section.discon_schedule .discon-fact-legend .legend-item div.maybe-schedulled {
+    background-color: rgba(204,206,207,.33);
+    background-image: url(./elec-maybe.svg)
+}
+
+section.discon_schedule .cell-scheduled,section.discon_schedule .cell-scheduled-maybe {
+    background-color: #d3d4d5;
+    background-image: url(./elec-off.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px
+}
+
+section.discon_schedule #discon-fact .cell-first-half:before,section.discon_schedule #discon-fact .cell-second-half:before,section.discon_schedule #legendarium-table .cell-first-half:before,section.discon_schedule #legendarium-table .cell-second-half:before,section.discon_schedule #tableRenderElem .cell-first-half:before,section.discon_schedule #tableRenderElem .cell-second-half:before,section.discon_schedule .cell-scheduled-maybe {
+    background-color: #eeefef;
+    background-image: url(./elec-maybe.svg)
+}
+
+section.discon_schedule .cell-first-half,section.discon_schedule .cell-second-half {
+    background-image: url(./elec-on.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    position: relative
+}
+
+section.discon_schedule.schedule-desktop .discon-schedule-interact .discon-schedule-table table td[colspan] {
+    font-weight: 600
+}
