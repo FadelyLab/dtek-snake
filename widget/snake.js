@@ -213,3 +213,5 @@ document.addEventListener("keydown", (e) => {
 /* ---------- START ---------- */
 reset();
 tickTimer = setInterval(tick, SPEED);
+
+// created by FadelyLab
