@@ -35,3 +35,5 @@ function applyDayClasses() {
 document.addEventListener("DOMContentLoaded", applyDayClasses);
 
 window.updateDayHighlight = applyDayClasses;
+
+// created by FadelyLab
