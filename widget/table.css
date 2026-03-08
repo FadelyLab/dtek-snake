@@ -93,7 +93,6 @@ section.discon_schedule .discon-schedule-interact .discon-fact-table table thead
     color: #11203e;
     max-width: 30px;
     padding: 0;
-    background-color: #ffffff
 }
 
 section.discon_schedule .discon-schedule-interact .discon-fact-table table thead tr th div,section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr th div {
@@ -165,7 +164,6 @@ section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody
     width: 92px!important;
     max-width: 30px;
     border-bottom: 1px solid #bebebe;
-    background-color: #ffffff
 }
 
 section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr td[colspan],section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr td[colspan] {
@@ -173,13 +171,11 @@ section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody
     text-align: left;
     min-width: 70px;
     color: #11203e;
-    background-color: #ffffff
 }
 
 @media (max-width: 845px) {
     section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr td[colspan],section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr td[colspan] {
         text-align:center;
-        background-color: #ffffff
     }
 }
 
@@ -188,7 +184,6 @@ section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody
         line-height:12px;
         max-width: 92px;
         height: 30px!important;
-        background-color: #ffffff
     }
 }
 
@@ -202,16 +197,13 @@ section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody
 
 section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr.monday-row td,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr.monday-row td {
     border-bottom: 1px solid #ffe500!important;
-    background-color: #ffffff
 }
 section.discon_schedule .discon-schedule-interact .discon-fact-table table thead tr th.monday-th-day,section.discon_schedule .discon-schedule-interact .discon-schedule-table table thead tr th.monday-th-day {
     border-bottom: 1px solid #ffe500!important;
-    background-color: #ffffff
 }
 
 section.discon_schedule .discon-schedule-interact .discon-fact-table table tbody tr:last-child td,section.discon_schedule .discon-schedule-interact .discon-schedule-table table tbody tr:last-child td {
     border-bottom: none!important;
-    background-color: #ffffff
 }
 
 @media (max-width: 845px) {
